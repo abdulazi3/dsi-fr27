@@ -15,7 +15,7 @@ $ewd: black;
 }
 
 body {
-  background: hotpink;
+  background: rgb(222, 116, 218, 0.99);;
 }
 
 body button {
@@ -27,7 +27,7 @@ a {
 }
 
 #header {
-  background: #F382D8;
+  //background: #F382D8;
 
   .nav {
     display: flex;
@@ -172,6 +172,7 @@ a {
         height: 420px;
         background: rgba(135, 92, 170, 0.4);
         border-radius: 30px;
+        padding: 25px 44px 44px 15px;
 
         ul {
           font-weight: 600;
@@ -201,7 +202,7 @@ a {
 }
 
 #sobre{
-  background: rgb(236, 100, 179);
+  background: rgb(222, 116, 218, 0.99);
   .sobre-general{
     display: flex;
     align-items: start;
@@ -228,6 +229,7 @@ a {
   }
 
     .sobre-raght{
+      padding: 0 30px;
       p{
         width: 622px;
         height: 186px;

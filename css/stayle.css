@@ -10,7 +10,7 @@
 }
 
 body {
-  background: hotpink;
+  background: rgba(222, 116, 218, 0.99);
 }
 
 body button {
@@ -21,9 +21,6 @@ a {
   text-decoration: none;
 }
 
-#header {
-  background: #F382D8;
-}
 #header .nav {
   display: flex;
   align-items: center;
@@ -135,6 +132,7 @@ a {
   height: 420px;
   background: rgba(135, 92, 170, 0.4);
   border-radius: 30px;
+  padding: 25px 44px 44px 15px;
 }
 #book-group .book-group--input--one ul {
   font-weight: 600;
@@ -157,7 +155,7 @@ a {
 }
 
 #sobre {
-  background: rgb(236, 100, 179);
+  background: rgba(222, 116, 218, 0.99);
 }
 #sobre .sobre-general {
   display: flex;
@@ -177,6 +175,9 @@ a {
   line-height: 72px;
   color: #FFFFFF;
   padding-bottom: 50px;
+}
+#sobre .sobre-raght {
+  padding: 0 30px;
 }
 #sobre .sobre-raght p {
   width: 622px;
